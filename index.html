@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title> Document </title>
+		<link rel="stylesheet" href="style.css">
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous"> <!-- Link a Bootstrap -->
+	</head>
+	<body>
+		<main>			   
+			<img src="defenders.png">
+			<h2> Guerra de cartas. El jugador tiene 25 naipes y la PC otros 25. Cada uno voltea la carta de su mazo, y el jugador que tiene la carta más alta se queda con ambas (en caso de empate, se sigue con la siguiente carta). Se deberá mostrar en todo momento cuántas cartas tiene cada uno. El juego termina cuando uno logra quedarse con las 25 cartas. </h2>
+			<form>
+				<div class="card"> <!-- Que se parezca una carta -->
+					<div class="card-body">
+				<p> Nombre </p>
+				<p> <input type="text" name="nombre" required> </p>
+				<p> Mail </p>
+				<p> <input type="email" name="email" required> </p>
+				<p> Teléfono </p>
+				<p> <input type="tel" name="tel" required> </p>
+				<h3> ¿Qué te parecio el juego? </h3>
+				<select name="opciones" id="seleccion de opciones" required>
+					<option value="">Seleccione una opción</option>
+					<option value="opcion1"> Muy bueno </option>
+					<option value="opcion2"> Bueno </option>
+					<option value="opcion3"> Normal </option>
+					<option value="opcion4"> Malo </option>
+					<option value="opcion5"> Muy malo </option>
+				</select>
+				<p> No soy un robot <input type="checkbox" name="bot" required> </p>
+				<button class="btn btn-primary" type="submit" required>Enviar</button> <!-- Boton en Bootstrap -->
+			</form>
+		</div>
+	</div>
+			<table>
+				<tr>
+					<th>Ranking</th>
+				</tr>
+				<tr>
+					<td> 1. ShadowStriker </td>
+				</tr>
+				<tr>
+					<td> 2. BlazeGamerX </td>
+				</tr>
+				<tr>
+					<td> 3. MysticFury </td>
+				</tr>
+				<tr>
+					<td> 4. NebulaNinja </td>
+				</tr>
+				<tr>
+					<td> 5. VelocityViper </td>
+				</tr>
+			</table>
+		</main>
+	</body>
+</html>
