@@ -15,12 +15,16 @@ img {
 
 h2 {
 	margin-left: 0em;
-  padding-left: 10em;
-  padding-right: 10em;
+  padding-left: 3em;
+  padding-right: 3em;
   text-align: center;
   font-size: 1.2em;
   line-height: 1.9em;
   font-weight: 200;
+}
+
+div {
+  text-align: center;
 }
 
 table {
